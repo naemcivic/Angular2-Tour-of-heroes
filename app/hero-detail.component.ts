@@ -12,6 +12,7 @@ import { Hero } from './hero'
 
 export class HeroDetailComponent implements OnInit {
     heroes: Hero[];
+    hero: {}
     
     ngOnInit(): void {
         this.route.params.forEach((params: Params) => {
